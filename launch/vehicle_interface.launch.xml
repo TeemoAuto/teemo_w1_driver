@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="vehicle_interface_param_file" default="$(find-pkg-share teemo_vehicle_interface)/config/vehicle_interface.param.yaml"/>
+
+  <!-- 启动您写好的那个 Python Launch 文件 -->
+  <include file="$(find-pkg-share teemo_vehicle_interface)/launch/vehicle_interface.launch.py">
+    <!-- 这里可以传递参数，如果有需要 -->
+    <!-- <arg name="max_speed" value="10.0"/> -->
+  </include>
+</launch>
