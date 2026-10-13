@@ -1,4 +1,4 @@
-# Teemo W1 ROS 2 Vehicle Interface
+# Teemo W1 ROS 2 driver
 
 `teemo_vehicle_interface` connects a Teemo W1 drive-by-wire chassis to ROS 2 and Autoware Universe. It exchanges raw CAN frames through `ros2_socketcan`, converts Autoware commands into W1 VCU frames, and publishes vehicle-state feedback.
 
